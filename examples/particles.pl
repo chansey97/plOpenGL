@@ -1,3 +1,5 @@
+user:file_search_path(foreign,'../lib/x64-win64').
+user:file_search_path(library,'../prolog/').
 :- use_foreign_library(foreign(plOpenGL)).
 :- use_module(library(plOpenGL)).
 :- use_module(library(plGL_defs)).
